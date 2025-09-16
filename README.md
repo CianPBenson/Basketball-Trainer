@@ -1,55 +1,76 @@
-Basketball Trainer App 🏀
+🏀 Basketball Trainer App
 
 Basketball Trainer is an interactive app designed to help players improve their basketball skills through structured training, challenges, and progression tracking. The app combines skill trees, level-based progression, and personalized dashboards to create a gamified training experience.
 
-Features:
+✨ Features
+🔐 Authentication
 
-Authentication
+Login / Register / Logout for a personalized experience.
 
--Login / Register / Logout for a personalized experience.
+Secure password handling using BCrypt.
 
--Secure password handling using BCrypt.
+JWT-based authentication for session management.
 
--JWT-based authentication for session management.
+🗺 Skills Roadmap
 
-Skills Roadmap
+Categories: Shooting, Handling, Finishing.
 
-  -Categories: Shooting, Handling, Finishing.
+Interactive skill trees: select a category and explore related skills.
 
-  -Interactive skill trees: select a category and explore related skills.
+Each skill includes tutorials, training instructions, and progress tracking.
 
-  -Each skill has tutorials, training instructions, and progress tracking.
 
-Shooting Skills (MVP)
 
-  -Initial skills: Regular Shooting, Free Throw, 3-Point Shooting.
+🏀 Shooting Skills (MVP)
 
-  -Leveling System: Beginner → Intermediate → Advanced → Master.
+Initial skills: Regular Shooting, Free Throw, 3-Point Shooting.
 
-  -Progress based on shots taken; missed days reduce your level proportionally.
+Leveling System: Beginner → Intermediate → Advanced → Master.
 
-  -Unlockable skills after reaching higher tiers.
+Progress based on shots taken; missed days reduce your level proportionally.
 
-Challenges & Badges
+Unlockable skills appear after reaching higher tiers.
 
-  -Weekly shot challenges to motivate consistent practice.
 
-  -Completing challenges boosts experience (XP) and unlocks badges.
 
-  -Earned badges and stats are displayed on the user dashboard.
+🎯 Challenges & Badges
 
-Profile Dashboard
+Weekly shot challenges to motivate consistent practice.
 
-  -Overview of stats, trophies, and badges.
+Completing challenges boosts experience (XP) and unlocks badges.
 
-  -Settings to edit user details.
+Earned badges and stats are displayed on the user dashboard.
 
-  -Track progress across all skill categories.
 
-Future Plans(Technically Everything Currently, this is just once the structure is down)
 
-  -Expand Handling and Finishing skills with similar progression and challenges.
+📊 Profile Dashboard
 
-  -Tier-based tutorials that evolve with skill levels.
+Overview of stats, trophies, and badges.
+
+Settings to edit user details.
+
+Track progress across all skill categories.
+
+
+
+🔮 Future Plans
+
+(Once the structure is stable, all features below will be implemented)
+
+Expand Handling and Finishing skills with similar progression and challenges.
+
+Tier-based tutorials that evolve with skill levels.
 
 UI improvements, notifications, and analytics for performance insights.
+
+
+
+🛠 Tech Stack
+
+C# / .NET Core
+
+Entity Framework Core (EF Core) + MySQL
+
+BCrypt for password hashing
+
+JWT Tokens for authentication
